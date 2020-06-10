@@ -1,0 +1,20 @@
+{
+  "name": "Tejas - Lecture Downloader",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "One Click Lecture Downloader",
+  
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Click to Download"
+  },
+  "permissions": [
+    "https://www.scaler.com/academy/mentee-dashboard/classroom/*/*"
+    
+  ]
+}
